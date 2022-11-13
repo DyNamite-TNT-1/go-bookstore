@@ -3,4 +3,6 @@ Viết routes trước để hình dung ra được route, vì user sẽ sử d�
 Tệp app.go sẽ giúp kết nối tới cơ sở dữ liệu mySql
 Tiếp theo là tệp utils
 Và cuối cùng là controller để chỉ tới model books
+user interacts with the routes and the routes send control to the controllers where we have all our logic 
+and controllers then have to perform some operations with database
 
