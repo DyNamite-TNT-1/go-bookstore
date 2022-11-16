@@ -10,7 +10,8 @@ var (
 )
 
 func Connect() {
-	d, err := gorm.Open("mysql", "") //first param is name of application store database, second param is comflex and I dont know :D
+
+	d, err := gorm.Open("mysql", "root:adminnof372001@/book?charset=utf8&parseTime=True&loc=Local")
 	if err != nil {
 		panic(err)
 	}
